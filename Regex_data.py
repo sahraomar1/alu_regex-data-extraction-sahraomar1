@@ -5,7 +5,7 @@ import re
 Example = {
     "Email": ["user@example.com", "firstname.lastname@company.co.uk"],
     "URL": ["https://www.example.com", "https://subdomain.example.org/page"],
-    "Phone": ["(123) 456-7890", "123-456-7890", "123.456.7890", "1234567890"],
+    "Phone": ["(123) 456-7890", "123-456-7890", "123.456.7890", "1234567890"], # I added the last one to show that the regex is working for both formats
     "HTML Tag": ["<p>", '<div class="example">', '<img src="img.jpg" alt="desc">'],
 }
 
